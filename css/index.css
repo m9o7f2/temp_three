@@ -1,0 +1,68 @@
+.m-u{
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: -3px 10px 10px -10px black;
+    padding: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+section .box-1 h2{
+    font-size: 18px;
+    color: #4BBDBC;
+}
+section .box-1 span {
+    color:#BFDF32;
+    font-weight: bold;
+}
+section .box-1 p{
+    color: #777;
+    color: #888;
+}
+section .box-2{
+    padding-bottom: 8px;
+}
+section .box-2,
+section .box-3{
+    color: #fff;
+}
+section .box-2 h2,
+section .box-3 h2 {
+    font-size: 18px;
+}
+.box-2 h3 span{
+    font-size: 16px;
+    color: #e9e9e9d9;
+}
+section .box-3 p{
+    width: 60%;
+    font-size: 14px;
+    color: #e9e9e9d9;
+}
+section .box-2 button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background: #BFDF32;
+    box-shadow: 4px 3px 12px -5px black;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+section .box-2 button:hover{
+    background-color:#2BB3B1;
+    color: #fff;
+}
+.attribution { font-size: 12px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 767px){
+    .m-u{
+        margin: 0px 15px;
+    }
+
+    section .box-3 p{
+        margin: 0px;
+    }
+}
