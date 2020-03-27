@@ -15,11 +15,7 @@ section .box-1 span {
     font-weight: bold;
 }
 section .box-1 p{
-    color: #777;
     color: #888;
-}
-section .box-2{
-    padding-bottom: 8px;
 }
 section .box-2,
 section .box-3{
@@ -45,7 +41,7 @@ section .box-2 button {
     border-radius: 20px;
     color: #fff;
     background: #BFDF32;
-    box-shadow: 4px 3px 12px -5px black;
+    box-shadow: 4px 3px 10px -5px black;
     outline: none;
     cursor: pointer;
     transition: all .5s;
